@@ -14,7 +14,7 @@ function check()
   if(usrAns.match(ans))
   {
     alert("U got it Right");
-    document.getElementById("msg").innerHTML="Congrats u Won..!";
+    document.getElementById("msg").innerHTML="Congrats u Lost";
   } 
   else
   {
@@ -26,9 +26,12 @@ function check()
 </head>
 
 <body>
+<h1>HARRY POTTER QUIZ</h1>
+<hr>
 <h2>What's the name of the Wizard boy in the J.K.Rowling's novels?</h2>
 <p>Your Answer: <input type="text" id="txt"/></p>
 <p><input type= "Button" value="Submit your Answer" onClick="check()"/></p>
 <p id="msg"></p>
+
 </body>
 </html> 
